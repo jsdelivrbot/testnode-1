@@ -1,3 +1,4 @@
+sudo cd /home/ec2-user/testdeploy/testnode/
 npm install
 pm2 start index.js
 exit
