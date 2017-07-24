@@ -1,5 +1,6 @@
 cd /home/ec2-user/testdeploy/testnode
-git npm install
+git pull
+npm install
 pm2 restart all
 exit
 EOF
