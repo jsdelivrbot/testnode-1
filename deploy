@@ -1,7 +1,3 @@
--#!/bin/sh
-ssh -oStrictHostKeyChecking=no ec2-user@localhost  <<EOF
-cd /home/ec2-user/testdeploy/testnode
-git pull
 npm install
 pm2 start index.js
 exit
