@@ -1,6 +1,6 @@
 npm install
 pm2 start index.js
-echo "#seckey"
+printenv
 exit
 EOF
 
