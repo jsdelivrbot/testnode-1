@@ -1,5 +1,3 @@
--#!/bin/sh 
-<<EOF
 cd /home/ec2-user/testdeploy/testnode
 git npm install
 pm2 restart all
