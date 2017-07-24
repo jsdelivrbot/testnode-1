@@ -1,4 +1,4 @@
-git checkout master
+git pull
 npm install
 pm2 start index.js
 exit
