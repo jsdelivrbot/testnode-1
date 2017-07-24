@@ -1,4 +1,4 @@
--#!/bin/ssh
+-#!/bin/sh
 ssh ec2-user@ec2-35-177-12-165.eu-west-2.compute.amazonaws.com <<EOF
 cd /home/ec2-user/testdeploy/testnode
 git pull
